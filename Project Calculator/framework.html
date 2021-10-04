@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<head>
+    <title>Calculator</title>
+    <link rel="icon" href="Calculator-icon.png">
+    <link rel="stylesheet" href="beautification.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="body">
+        <div id="Calculator">
+            <div id="screen"><input type="text" id="screenInput"></div>
+            <table>
+                <tr>
+                    <td><button onclick="soundEffect.play(), appendNumber('(')" id="left_bracket">(</button></td>
+                    <td><button onclick="soundEffect.play(), appendNumber(')')" id="right_bracket">)</button></td>
+                    <td><button onclick="soundEffect.play(), appendNumber('%')" id="percentage">%</button></td>
+                    <td><button onclick="soundEffect.play(), clr()" id="clear">C</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="soundEffect.play(), appendNumber(1)" id="id1">1</button></td>
+                    <td><button onclick="soundEffect.play(), appendNumber(2)" id="id2">2</button></td>
+                    <td><button onclick="soundEffect.play(), appendNumber(3)" id="id3">3</button></td>
+                    <td><button onclick="soundEffect.play(), appendNumber('+')" id="add">+</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="soundEffect.play(), appendNumber(4)" id="id4">4</button></td>
+                    <td><button onclick="soundEffect.play(), appendNumber(5)" id="id5">5</button></td>
+                    <td><button onclick="soundEffect.play(), appendNumber(6)" id="id6">6</button></td>
+                    <td><button onclick="soundEffect.play(), appendNumber('-')" id="minus">-</button></td>
+                    </tr>
+                <tr>
+                    <td><button onclick="soundEffect.play(), appendNumber(7)" id="id7">7</button></td>
+                    <td><button onclick="soundEffect.play(), appendNumber(8)" id="id8">8</button></td>
+                    <td><button onclick="soundEffect.play(), appendNumber(9)" id="id9">9</button></td>
+                    <td><button onclick="soundEffect.play(), appendNumber('*')" id="multiply">×</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="soundEffect.play(), appendNumber(0)" id="id0">0</button></td>
+                    <td><button onclick="soundEffect.play(), appendNumber('.')" id="decimal">.</button></td>
+                    <td><button onclick="soundEffect.play(), calculate()" id="equalto">=</button></td>
+                    <td><button onclick="soundEffect.play(), appendNumber('/')" id="divide">÷</button></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

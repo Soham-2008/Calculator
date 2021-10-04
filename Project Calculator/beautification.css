@@ -1,0 +1,127 @@
+body{
+
+    background-color: rgb(188, 229, 245);
+}
+
+#body{
+
+    border: 10px double blue;
+    width: 1330px;
+    height: 587px;
+
+}
+
+#Calculator{
+    width: 305px;
+    height: 355px;
+    position: relative;
+    left: 500px;
+    top: 115px;
+    border: 3px solid black;
+    border-radius: 10px;
+    box-shadow: 10px 10px grey;
+    background-color: rgb(182, 182, 182);
+
+}
+
+#screenInput{
+
+    margin-left: 22.5px;
+    background-color: white;
+    margin-top: 15px;
+    width: 260px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 6px;
+    font-size: 35px;
+    text-align: right;
+
+}
+
+table{
+
+    border-spacing: 15px;
+
+}
+
+#id1,#id2,#id3,#id4,#id5,#id6,#id7,#id8,#id9,#id0,#decimal,#equalto,#minus,#add,#multiply,#divide,#clear,#left_bracket,#right_bracket,#percentage{
+
+    width: 55px;
+    border: 1px solid rgb(54, 53, 53);
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    box-shadow: 3px 3px grey;
+    border-radius: 20px;
+    font-family: Comic;
+    font-size: 20px;
+    background-color: rgb(240, 224, 224);
+    text-decoration: bold;
+
+}
+
+#id1:hover,#id2:hover,#id3:hover,#id4:hover,#id5:hover,#id6:hover,#id7:hover,#id8:hover,#id9:hover,#id0:hover,#decimal:hover,#equalto:hover,#minus:hover,#add:hover,#multiply:hover,#divide:hover,#clear:hover,#left_bracket:hover,#right_bracket:hover,#percentage:hover{
+
+    border: 1px solid honeydew;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    box-shadow: 3px 3px grey;
+    border-radius: 20px;
+    font-family: Comic;
+    font-size: 20px;
+    color: honeydew;
+    background-color: rgb(58, 57, 57);
+    text-decoration: bold;
+    transition: 0.6s;
+    cursor: pointer;
+
+}
+
+#id1:active,#id2:active,#id3:active,#id4:active,#id5:active,#id6:active,#id7:active,#id8:active,#id9:active,#id0:active,#decimal:active,#equalto:active,#minus:active,#add:active,#multiply:active,#divide:active,#clear:active,#left_bracket:active,#right_bracket:active,#percentage:active{
+
+    box-shadow: -3px -3px grey;
+    transition: 0s;
+
+}
+
+#equalto{
+
+    color: honeydew;
+    background-color: blue;
+    border: 1px solid honeydew;
+
+}
+
+#equalto:hover{
+
+    background-color: honeydew;
+    color: blue;
+    border: 1px solid blue;
+
+}
+
+#minus,#add,#multiply,#divide,#clear,#left_bracket,#right_bracket,#percentage{
+
+    background-color: rgb(58, 57, 57);
+    color: rgb(240, 224, 224);
+    border: 1px solid rgb(240, 224, 224);
+
+}
+
+#minus:hover,#add:hover,#multiply:hover,#divide:hover,#clear:hover,#left_bracket:hover,#right_bracket:hover,#percentage:hover{
+
+    background-color: rgb(240, 224, 224);
+    color: rgb(58, 57, 57);
+    border: 1px solid rgb(58, 57, 57);
+
+}
+
+#clear{
+
+    text-align: left;
+}
